@@ -55,3 +55,45 @@ header{
     color: grey;
     border: 1px solid rgb(0, 0, 0);
 }
+
+/* tasks */
+
+.all-tasks{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.task-title{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.arrow-down{
+    font-size: 0.8em;
+}
+.list-task{
+    font-size: 0.9em;
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;    
+}
+.inside-task{
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+/* utilities */
+
+.tasks-check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;     
+}
+.completed:after{
+    content: "\2713";
+}
+.completed{
+    color: rgb(7, 255, 7);
+    border: 1px solid rgb(7, 255, 7);
+}
