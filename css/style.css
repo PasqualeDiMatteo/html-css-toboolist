@@ -35,16 +35,17 @@ header{
 /* button */
 
 .container.bar{
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 2px;   
 }
 .bar button{
-    padding: 10px 20px;
+    padding: 6px 12px;
     border-radius: 5px;
     margin-bottom: 2px;   
 }
+
 .add-task{
     background-color: #1e90ff;
     color: white;
@@ -131,4 +132,12 @@ header{
 
 .mobile{
     background-color: #fdb04a;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
