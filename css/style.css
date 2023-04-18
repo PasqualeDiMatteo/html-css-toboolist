@@ -90,10 +90,45 @@ header{
     border-radius: 50%;
     text-align: center;     
 }
+.type{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color: white;
+    font-size: 0.7em;
+}
+
 .completed:after{
     content: "\2713";
 }
+
 .completed{
     color: rgb(7, 255, 7);
     border: 1px solid rgb(7, 255, 7);
+}
+
+.no-completed:after{
+    content: "\2717";
+}
+
+.no-completed{
+    color: rgb(255, 59, 59);
+    border: 1px solid rgb(255, 59, 59);
+}
+
+
+.editorial{
+    background-color: #2895da;
+}
+
+.q1-goals{
+    background-color: #905beb;
+}
+
+.recruiting{
+    background-color: #6fdabf;
+}
+
+.mobile{
+    background-color: #fdb04a;
 }
